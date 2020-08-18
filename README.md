@@ -20,7 +20,7 @@ Given a bit string of  0's and 1's, the aim is to find a bit string which contai
 1. Run directly in the terminal by typing the following:
 
         #./main [algo] [runs] [iter] [bits] [filename]
-        ./main es 30 20000 100 ""
+        ./main hc 30 20000 100 ""
     
 2. Or if you want to run multiple times, just by opening the search.sh and add whatever you want to run.  
 
@@ -32,6 +32,10 @@ You can change the iteration block by modifying
 in "execute.hpp".
 
 # Results
+
+As you can see from the following image, due to the random point initialization of Hill Climbing Algorithm, it has a better starting point than Exhuastive Search.
+
+However, in this problem, Hill Climbing Algorithm got stuck in a local optimum in early iterations.
 
 ![alt text](https://github.com/MarttiWu/hill-climbing-one-max/blob/master/HC_one_max.png)
 
