@@ -6,7 +6,7 @@ Pros:
 1. More efficient than Exhaustive Search, due to the avoidance of overall search.
 
 Cons:
-1. High chance being stuck in local optima.
+1. High chance of being stuck in local optima.
 
 # One-max problem
 
