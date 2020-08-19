@@ -16,13 +16,19 @@ Given a bit string of  0's and 1's, the aim is to find a bit string which contai
 
 # Usage
 
+Open terminal
+
         make
+        
 1. Run directly in the terminal by typing the following:
 
         #./main [algo] [runs] [iter] [bits] [filename]
         ./main hc 30 20000 100 ""
     
-2. Or if you want to run multiple times, just by opening the search.sh and add whatever you want to run.  
+2. Or if you want to run multiple times, just by opening the "search.sh" and add whatever you want and run by typing
+
+        ./search.sh
+in the terminal.
 
 # Customize
 
