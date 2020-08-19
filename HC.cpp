@@ -64,6 +64,10 @@ void HC::run(){
         record_value[it] = best_value;
         it++;
     }
+    for (int i=it;i<record_value.size();i++){
+        record_bitstr[i] = best_bitstr;
+        record_value[i] = best_value;
+    }
 }
 
 void HC::init_point(){
